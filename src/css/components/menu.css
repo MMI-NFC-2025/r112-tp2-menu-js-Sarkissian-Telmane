@@ -10,7 +10,7 @@ body {
   background-color: rgb(255, 255, 255); /* Définit la couleur de fond du menu en blanc : https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
   display: flex; /* Utilise Flexbox pour la mise en page des éléments enfants : https://developer.mozilla.org/fr/docs/Web/CSS/display-inside#flex */
   top: 0px; /* Positionne le menu en haut de la page : https://developer.mozilla.org/fr/docs/Web/CSS/top */
-  ; /* Étend le menu jusqu'en bas de la page */
+  bottom: 0px; /* Étend le menu jusqu'en bas de la page */
   ______________; /* Positionne le menu à gauche de la page */
   ______________; /* Étend le menu jusqu'à droite de la page */
   ______________; /* Définit une transition de 0.4 secondes pour toutes les propriétés, avec un effet d'accélération et de décélération : https://developer.mozilla.org/fr/docs/Web/CSS/transition */
