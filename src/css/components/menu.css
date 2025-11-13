@@ -9,7 +9,7 @@ body {
   position: fixed; /* Fixe le menu en position, il ne défilera pas avec la page : https://developer.mozilla.org/fr/docs/Web/CSS/position#fixed */
   background-color: rgb(255, 255, 255); /* Définit la couleur de fond du menu en blanc : https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
   display: flex; /* Utilise Flexbox pour la mise en page des éléments enfants : https://developer.mozilla.org/fr/docs/Web/CSS/display-inside#flex */
-  ; /* Positionne le menu en haut de la page : https://developer.mozilla.org/fr/docs/Web/CSS/top */
+  top: 0px; /* Positionne le menu en haut de la page : https://developer.mozilla.org/fr/docs/Web/CSS/top */
   ; /* Étend le menu jusqu'en bas de la page */
   ______________; /* Positionne le menu à gauche de la page */
   ______________; /* Étend le menu jusqu'à droite de la page */
